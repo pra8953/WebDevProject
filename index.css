@@ -4,9 +4,91 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+   
+    overflow-x: hidden;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* This design for top Header */
 .TopHeader{
     display: flex;
     justify-content: end;
+    background-color: rgb(119, 2, 134);
+    height: 2rem;
+    width: 100vw;
+    box-shadow: 2px 5px 10px rgb(145, 141, 145);
+}
+.TopHeader_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4rem;
+    gap: 3px;
+    color: #fff;
+}
+.sla{
+    font-size: larger;
+}
 
+/* end of Top Header */
+
+
+/* header design */
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.image{
+    height: 150px;
+}
+/* end header */
+
+
+/* Navbar start */
+.navbar{
+    background-color: #F65A29;
+    color: #fff;
+    padding: 0px 150px;
+    box-shadow: 2px 5px 20px rgb(145, 141, 145);
+   
+}
+
+.nav_items{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+ 
+    
+
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    width: 120px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover{
+    background-color: #0a0258;
+    transition: 0.5s;
+}
+
+a i{
+    padding-right: 13px;
 }
