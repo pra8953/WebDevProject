@@ -30,6 +30,7 @@ html {
     color: #fff;
     cursor: pointer;
 }
+/* for slash */
 .sla{
     font-size: larger;
 }
@@ -46,6 +47,8 @@ html {
 .header{
     display: flex;
     justify-content: space-around;
+    height: 150px;
+    align-items: center;
 }
 
 .header_content{
@@ -56,7 +59,7 @@ html {
     color: #fff;
 }
 .image{
-    height: 150px;
+    height: 120px;
 }
 /* end header */
 
@@ -96,6 +99,7 @@ a:hover{
 }
 
 a i{
+   
     padding-right: 13px;
 }
 
@@ -115,16 +119,24 @@ a i{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 100vh;
     display: flex;
     /* width: max-content; */
-    transition: 1s;
+    transition: 1.3s;
+    
+}
+
+.item{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
 }
 .list img{
-    width: 1400px;
+    width: 100vw;
     max-width: 100vw;
     height: 100%;
     object-fit: cover;  
+    overflow-y: hidden;
 }
 
 
@@ -132,7 +144,7 @@ a i{
 .dots{
     position: absolute;
     bottom: 10px;
-    color: #fff;
+    color: #F65A29;
     left: 0;
     width: 100%;
     margin: 0;
@@ -144,7 +156,7 @@ a i{
     list-style: none;
     width:10px;
     height: 10px;
-    background-color: #fff;
+    background-color: #F65A29;
     margin: 20px;
     height: 10px;
     border-radius: 20px;
@@ -153,4 +165,50 @@ a i{
 }
 .dots li.active{
     width: 30px;
+}
+
+/* hero section end */
+
+
+/* main section start */
+
+.first_main{
+    margin-top: 50px;
+    height: 450px;
+    width: 100vw;
+    background-color: #968dec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.main_about{
+    width: 40%;
+    height: 89%;
+    background-color: #fff;
+    box-shadow: 4px 4px 20px #a7a7b8;
+    border-radius: 5px;
+
+}
+
+.main_news{
+    width: 37%;
+    height: 89%;
+    background-color: #3301e9;
+}
+
+
+/* main about */
+.about_out{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 1rem;
+    color: #F65A29;
+}
+.about_in{
+    font-size: 22px;
+    font-weight: 100;
+    color: #2600ad;
 }
