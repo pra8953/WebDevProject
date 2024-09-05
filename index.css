@@ -150,6 +150,7 @@ a i{
     margin: 0;
     padding: 0;
     display: flex;
+    cursor: pointer;
     justify-content: center;
 }
 .dots li{
@@ -204,7 +205,7 @@ a i{
 /* main about */
 .about_out{
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
     padding-left: 1rem;
     padding-top: 1rem;
     color: #F65A29;
@@ -247,20 +248,112 @@ a i{
 
 .second_main{
     width:100vw;
-    height: 520px;
-    background-color: #F65A29;
+    height: 600px;
+    /* background-color: #F65A29; */
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .faq{
-    background-color: #1a0272;
-    width: 32%;
-    height: 85%;
+    /* background-color: #1a0272; */
+    width: 35%;
+    height: 87%;
+    box-shadow: 3px 3px 8px #9e9c9c;
+    
+}
+.all_item{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 .gallary{
     background-color: aqua;
-    width: 55%;
-    height: 90%;
+    margin-top: -45px;
+    width: 46%;
+    height: 82%;
+}
+.first_faq{
+    display: flex;
+    gap: 10px;
+    /* align-items: baseline; */
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.faq_head{
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.FAQ{
+    color: #F65A29;
+    font-size: 30px;
+}
+.s{
+    margin-left: -8px;
+    color: #0a0258;
+}
+.qes{
+    font-size: 25px;
+    /* margin-top: 15px; */
+}
+
+.view_all{
+    margin-left: 40px;
+    border-radius: 5px;
+    background-color: #1a0272;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px ;
+}
+
+.view_all:hover{
+    margin-left: 40px;
+    border-radius: 5px;
+    background-color:#F65A29;
+    transition: 0.5s;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px ;
+}
+
+
+
+.second_main{
+    margin-left: 2em;
+}
+
+.quto_faq{
+    margin-top:5px;
+    color: #999696;
+    user-select: none;
+    font-size: large;
+}
+.faq_balan{
+    padding-top: 20px;
+    padding-bottom: 11px;
+    
+}
+.faq_text_content{
+    margin-top: 2.1em;
+    
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    font-size: 15px;
+    
+}
+.faq_text button{
+    padding: 4px 9px;
+    background-color: #F65A29;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:#fff ;
+    font-size: 16px;
+    font-weight: 900;
+   
 }
