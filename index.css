@@ -268,12 +268,7 @@ a i{
     /* justify-content: center; */
     align-items: center;
 }
-.gallary{
-    background-color: aqua;
-    margin-top: -45px;
-    width: 46%;
-    height: 82%;
-}
+
 .first_faq{
     display: flex;
     gap: 10px;
@@ -356,4 +351,75 @@ a i{
     font-size: 16px;
     font-weight: 900;
    
+}
+
+/* second main gallery */
+
+.gallary{
+    /* background-color: aqua; */
+    margin-top: -45px;
+    margin-right: 2rem;
+    width: 50%;
+    height: 82%;
+    box-shadow: 3px 3px 8px #9e9c9c;
+}
+
+.gallary_head_first{
+    display: flex;
+    gap: 20px;
+    margin-top:9px;
+    margin-left: 16px;
+}
+
+.gallary_head_text{
+    color: #1a0272;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.gallary_head_text span{
+    color: #F65A29;
+}
+
+.img-font i{
+    font-size: 25px;
+}
+.gallary_qut{
+    font-size: 17px;
+    color: #999696;
+    user-select: none;
+}
+.gallary_button button{
+    /* margin-left: 40px; */
+    border-radius: 5px;
+    background-color: #1a0272;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px ;
+}
+
+.gallary_head_first{
+    display: flex;
+    align-items: center;
+}
+
+.gallary_button button:hover{
+    /* margin-left: 40px; */
+    border-radius: 5px;
+    background-color:#F65A29;
+    transition: 0.5s;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px ;
+}
+
+.gallary_head p,div img{
+    margin-left: 16px;
+}
+
+.gallary_balan{
+    /* height: 17px; */
+    
 }
