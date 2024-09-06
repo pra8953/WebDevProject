@@ -65,13 +65,18 @@ html {
 
 
 /* Navbar start */
+
+
 .navbar{
     background-color: #F65A29;
     color: #fff;
     padding: 0px 150px;
     box-shadow: 5px 7px 10px rgb(53, 52, 52);
+    z-index: 99999;
    
 }
+
+
 
 .nav_items{
     height: 60px;
@@ -140,13 +145,13 @@ a i{
     height: 100%;
     object-fit: cover;  
     overflow-y: hidden;
-    z-index: -99999;
+    /* z-index: -99999; */
 }
 .buttons_slide{
     position: absolute;
     left: 34px;
     top: -67px;
-    z-index: 99999;
+    /* z-index: 99999; */
 
 }
 
