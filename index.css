@@ -119,6 +119,7 @@ a i{
     position: absolute;
     top: 0;
     left: 0;
+    
     height: 100vh;
     display: flex;
     /* width: max-content; */
@@ -134,11 +135,20 @@ a i{
 .list img{
     width: 100vw;
     max-width: 100vw;
+    margin: 0;
+    padding: 0;
     height: 100%;
     object-fit: cover;  
     overflow-y: hidden;
+    z-index: -99999;
 }
+.buttons_slide{
+    position: absolute;
+    left: 34px;
+    top: -67px;
+    z-index: 99999;
 
+}
 
 
 .dots{
@@ -419,7 +429,3 @@ a i{
     margin-left: 16px;
 }
 
-.gallary_balan{
-    /* height: 17px; */
-    
-}
