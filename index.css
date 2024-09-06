@@ -227,8 +227,12 @@ a i{
     color: #1a0272;
     user-select: none;
 }
+
+.about_in_img{
+    height: 14px;
+}
 .main_about img{
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     padding-top: 7px;
     user-select: none;
 }
@@ -338,9 +342,16 @@ a i{
     font-size: large;
 }
 .faq_balan{
-    padding-top: 20px;
-    padding-bottom: 11px;
+    padding-top: 7px;
+    /* padding-bottom: 11px; */
+    /* display: flex;
+    justify-content: flex-start; */
+   
     
+}
+.faq_balan img{
+    margin-left: -1px;
+    height: 8px;
 }
 .faq_text_content{
     margin-top: 2.1em;
@@ -425,7 +436,48 @@ a i{
     padding: 5px 10px ;
 }
 
+.gallary_balan img{
+    height: 8px;
+    /* width:7px ; */
+}
+
 .gallary_head p,div img{
     margin-left: 16px;
 }
 
+
+.image_container{
+    padding: 4px;
+    padding-right: 20px;
+    display: grid;
+    grid-gap: 4px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+._img_{
+    border-radius: 2px;
+    position: relative;
+}
+
+.hover_add div{
+    position: absolute;
+    top: 0;
+    left: 15em;
+   
+
+}
+
+._img_ img{
+    object-fit: cover;  
+    height: 100px;
+    width: 250px;
+    cursor: pointer;
+    
+}
+
+._img_ img:hover{
+
+   filter:grayscale(100%);
+   transition: 1s;
+    
+}
