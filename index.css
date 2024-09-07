@@ -550,7 +550,7 @@ a i{
 /* custom scroll bar */
 
 ::-webkit-scrollbar{
-    width: 13px;
+    width: 7px;
 }
 
 
