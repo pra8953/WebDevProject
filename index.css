@@ -546,6 +546,16 @@ a i{
 }
 
 
+.icons{
+    color: #fff;
+    font-size: 25px;
+}
+
+.icons:hover{
+    color: #da6518;
+    transition: 1s;
+    transform: scale(1.1);
+}
 
 /* custom scroll bar */
 
