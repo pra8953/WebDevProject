@@ -6,6 +6,7 @@
     font-family: "Open Sans", sans-serif;
    
     overflow-x: hidden;
+    
 }
 
 html {
@@ -250,12 +251,38 @@ a i{
 
 }
 
-.www{
+.elective_item{
     box-shadow: 2px 3px 12px black;
-    background-color: #c7c5d8;
+    background-color: #e0e0e6;
     height: 90%;
     width: 23%;
-    border: 1px solid blue;
+    border: 2px solid rgb(111, 111, 207);
+
+}
+
+.elective_head{
+    color: #F65A29;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+.elective_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    color: #190d81;
+    
+}
+
+.button_container_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 2.3rem;
 }
 /* footer section */
 
