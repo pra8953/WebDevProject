@@ -109,10 +109,154 @@ a i{
 }
 
 
-/* hero section */
+/* end navbar */
 
+
+/* start main */
+/* main section core */
+.syllabus_container{
+    height: auto;
+    
+    background-color: #ffffff00;
+}
+
+.core_voc{
+    margin-top: 3rem;
+    /* height: 700px; */
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+/* 
+.syllabus_category{
+    
+} */
+
+.syllabus_category_head{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #190d81;
+}
+
+.core_container{
+    height: 400px;
+    background-color: #ceccd42f;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.core_voc_sd , .core_voc_bank {
+    background-color: #fff;
+    height: 75%;
+    width: 35%;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px rgb(85, 83, 83);
+    overflow-y: hidden;
+}
+
+/*  */
+
+.core_voc_sd_head{
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+    margin: 4px;
+    color:#F65A29;
+}
+
+.b_voc_img{
+    height:82%;
+    width: 98%;
+    margin: auto;
+}
+
+.b_voc_img img{
+    object-fit: cover;
+    height: inherit;
+    width: inherit;
+    margin: 5px;
+}
   
+.button_container{
+    position: relative;
+    top: -20px;
+    display: flex;
+    justify-content: space-around;
+}
 
+.view_syllbus{
+    background-color: rgb(29, 175, 175);
+    cursor: pointer;
+    height: 25px;
+    width: 70px;
+    border: none;
+    border-radius:2px ;
+    color:#fff;
+}
+
+.view_syllbus:hover{
+    background-color:aqua;
+    color: #fff;
+    transition: 1s;
+}
+.download_syllbus{
+    background-color: green;
+    cursor: pointer;
+    height: 25px;
+    width: 80px;
+    border: none;
+    border-radius:2px ;
+    color: #fff;
+}
+
+.download_syllbus:hover{
+    background-color: darkgreen;
+    color: #fff;
+    transition: 1s;
+}
+
+/* end main section core */
+
+/* main section elective */
+
+.elective_sub{
+   
+    height: auto;
+    margin-top: 3rem;
+    
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.elective_sub_head{
+
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #190d81;
+
+}
+
+.elective_container{
+
+    height: 300px;
+   
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+.www{
+    box-shadow: 2px 3px 12px black;
+    background-color: #c7c5d8;
+    height: 90%;
+    width: 23%;
+    border: 1px solid blue;
+}
 /* footer section */
 
 .foot_parent{
