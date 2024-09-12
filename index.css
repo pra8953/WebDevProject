@@ -76,7 +76,19 @@ html {
    
 }
 
-
+.navbar {
+    /* Adjust to match your design */
+   transition: top 0.3s; /* Smooth transition */
+ }
+ 
+ .navbar.fixed {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1000; /* Ensure it's on top of other content */
+ }
+ 
 
 .nav_items{
     height: 60px;

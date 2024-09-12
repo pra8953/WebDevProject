@@ -179,6 +179,11 @@ a i{
     width: inherit;
     margin: 5px;
 }
+
+.b_voc_img img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
   
 .button_container{
     position: relative;
