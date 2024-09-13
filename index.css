@@ -421,7 +421,8 @@ a i{
     margin-top: 10px;   
     color: #494848;
     user-select: none;
-    display: none;      
+    display: none;   
+    transition: 5s;   
 }
 
 
