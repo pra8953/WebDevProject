@@ -526,13 +526,18 @@ a i{
     cursor: pointer;
     
     
+    
 }
 
+._img_:hover{
+    overflow-y: hidden;
+}
 ._img_ img:hover{
 
    filter:grayscale(100%);
    transition: 1s;
    transform: scale(1.1);
+   
    
    
     
