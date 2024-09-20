@@ -13,6 +13,8 @@ html {
   }
 
 /* This design for top Header */
+
+/* this is topheader parents */
 .TopHeader{
     display: flex;
     justify-content: end;
@@ -21,6 +23,10 @@ html {
     width: 100vw;
    
 }
+
+/* end of topheader parents */
+
+/* this is topheader items */
 .TopHeader_item{
     display: flex;
     justify-content: center;
@@ -35,21 +41,37 @@ html {
     font-size: larger;
 }
 
+@media(max-width:500px){
+    .TopHeader_item{
+        padding-right: 15px;
+    }
+}
+
+@media(max-width:310px){
+    .TopHeader_item{
+        padding-right: 8px;
+    }
+}
+/* end topheader items */
 /* end of Top Header */
 
-/* for navbar */
-.navbar{
-    width: 100vw;
-    position: sticky;
-    top: 0;
-}
-/* header design */
+
+
+
+
+/* this is header section start*/
+
+
 .header{
     display: flex;
     justify-content: space-around;
     height: 150px;
     align-items: center;
+    overflow: hidden;
 }
+
+
+/* in header section  vocational department text  strat*/
 
 .header_content{
     display: flex;
@@ -61,12 +83,188 @@ html {
 .image{
     height: 120px;
 }
-/* end header */
+
+
+@media(max-width:721px){
+    .image{
+        height: 100px;
+    }
+
+   
+}
+
+@media(max-width:677px){
+    .image{
+        height: 100px;
+    }
+
+    .header_content h1{
+        font-size: 26px;
+        font-weight: 800;
+    }
+
+    .header_content h2{
+        font-size: 23px;
+        font-weight: 700;
+    }
+}
+
+@media(max-width:599px){
+    .image{
+        height: 87px;
+    }
+    .header_content h1{
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .header_content h2{
+        font-size: 19px;
+        font-weight: 700;
+    }
+
+    .header_content p{
+        font-size: 14px;
+    }
+
+    .header{
+        height: 120px;
+    }
+}
+
+@media(max-width:513px){
+    .image{
+        height: 84px;
+    }
+    .header_content h1{
+        font-size: 19px;
+        font-weight: 800;
+    }
+
+    .header_content h2{
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .header_content p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:466px){
+    .image{
+        height: 80px;
+    }
+    .header_content h1{
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .header_content h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .header_content p{
+        font-size: 12px;
+    }
+
+    .header{
+        height: 110px;
+    }
+}
+
+
+@media(max-width:453px){
+    .image{
+        height: 80px;
+    }
+    .header_content h1{
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .header_content h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .header_content p{
+        font-size: 12px;
+    }
+
+    .header{
+        height: 110px;
+    }
+}
+
+@media(max-width:436px){
+    .image{
+        height: 80px;
+    }
+    .header_content h1{
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .header_content h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .header_content p{
+        font-size: 12px;
+    }
+
+    .header{
+        height: 110px;
+    }
+    .second{
+        display: none;
+    }
+}
+
+
+
+@media(max-width:362px){
+    .image{
+        height: 77px;
+    }
+    .header_content h1{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .header_content h2{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .header_content p{
+        font-size: 10px;
+    }
+
+    .header{
+        height: 100px;
+    }
+    .second{
+        display: none;
+    }
+}
+/* end header  section */
 
 
 /* Navbar start */
 
 
+/* for navbar */
+
+
+.navbar{
+    width: 100vw;
+    position: sticky;
+    top: 0;
+}
 .navbar{
     background-color: #F65A29;
     color: #fff;
@@ -100,6 +298,36 @@ html {
     
 
 }
+
+
+@media (max-width: 1071px) {
+  
+    .navbar{
+        padding: 0px 107px;
+    }
+    
+}
+
+@media (max-width: 900px) {
+  
+    .navbar{
+        padding: 0px 60px;
+    }
+    
+}
+
+@media (max-width: 727px) {
+  
+    .navbar{
+        padding: 0px 0px;
+    }
+
+.nav_items{
+
+    gap: 4px;
+}
+    
+}
 .navbar a{
     color: #fff;
     text-decoration: none;
@@ -117,7 +345,7 @@ a:hover{
 
 a i{
    
-    padding-right: 13px;
+    padding-right: 10px;
 }
 
 
@@ -209,6 +437,7 @@ a i{
     justify-content: space-around;
     align-items: center;
     
+    
 
 }
 
@@ -218,7 +447,59 @@ a i{
     background-color: #fff;
     box-shadow: 4px 4px 20px #a7a7b8;
     border-radius: 5px;
+    
 
+}
+
+._head_button{
+    display: flex;
+    justify-content: space-between;
+}
+
+._head_button .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    display: none;
+}
+
+@media (max-width: 1071px) {
+    .main_about {
+       height: 85%;
+       width: 43%;
+    }
+}
+
+@media (max-width: 1066px) {
+    .main_about {
+       height: 88%;
+       width: 43%;
+    }
+}
+
+@media (max-width:1033px){
+    .main_about{
+        overflow: hidden;
+    }
+}
+
+@media(max-width:1000px){
+    .about_content_{
+        margin-bottom:10px ;
+    }
+}
+
+@media(max-width:985px){
+    .read_more{
+        display: none;
+    }
+}
+
+@media(max-width:985px){
+    ._head_button .button{
+        display: inline;
+    }
 }
 
 .main_news{
@@ -226,8 +507,15 @@ a i{
     height: 85%;
     box-shadow: 4px 4px 20px #a7a7b8;
     background-color: #fff;
+    overflow: hidden;
 }
 
+@media (max-width: 1071px) {
+    .main_news {
+       height: 85%;
+       width: 43%;
+    }
+}
 
 /* main about */
 .about_out{
@@ -260,6 +548,10 @@ a i{
     padding:25px 25px 12px 25px;
 }
 
+
+  
+ 
+  
 .read_more{
     text-decoration: none;
     color:blue ;
@@ -322,6 +614,8 @@ a i{
     /* justify-content: center; */
     align-items: center;
 }
+
+
 
 .first_faq{
     display: flex;
